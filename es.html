@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Repi — Política de privacidad</title>
+<style>:root{color-scheme:light dark;--bg:#F6F7F9;--surface:#FFFFFF;--text:#111827;--muted:#4B5563;--accent:#2563EB;--border:#E5E7EB}
+@media (prefers-color-scheme:dark){:root{--bg:#0B0F17;--surface:#131a26;--text:#F3F4F6;--muted:#9CA3AF;--accent:#60A5FA;--border:#243044}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px 20px 80px}
+header{display:flex;align-items:center;gap:12px;margin-bottom:32px}
+header .mark{width:40px;height:40px;border-radius:10px;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px}
+header .name{font-size:20px;font-weight:700}
+h1{font-size:30px;line-height:1.25;margin:0 0 6px}
+.updated{color:var(--muted);font-size:14px;margin:0 0 28px}
+h2{font-size:19px;margin:34px 0 8px}
+p{margin:0 0 14px;color:var(--muted)}
+p.lead{color:var(--text)}
+.langs{margin-bottom:28px;font-size:14px}
+.langs a{color:var(--accent);text-decoration:none;margin-right:14px}
+.langs strong{margin-right:14px}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--border);font-size:14px;color:var(--muted)}
+footer a{color:var(--accent)}</style>
+</head>
+<body>
+<main>
+<header><div class="mark">R</div><div class="name">Repi</div></header>
+<div class="langs"><a href="index.html">English</a><a href="ru.html">Русский</a><strong>Español</strong><a href="pt.html">Português</a></div>
+<h1>Política de privacidad</h1>
+<p class="updated">Actualizada el 14 de noviembre de 2026</p>
+<p class="lead">Repi es una app para aprender palabras en inglés mediante notificaciones. Está hecha para funcionar sin cuenta y para recoger lo menos posible sobre ti.</p>
+<h2>Qué se queda en tu dispositivo</h2>
+<p>Los niveles y temas que eliges, el horario de las notificaciones, el progreso de cada palabra, tu propio diccionario y tus estadísticas se guardan solo en la memoria del teléfono. Las respuestas que das directamente en la notificación se guardan ahí también. Nada de esto sale del dispositivo mientras no inicies sesión.</p>
+<h2>Iniciar sesión es opcional</h2>
+<p>La app funciona del todo sin cuenta. La única forma de iniciar sesión es con Apple. Si la usas, recibimos el identificador de tu cuenta de Apple y tu dirección de correo, incluida la dirección de reenvío privada si elegiste ocultar el correo. La app nunca ve la contraseña de tu Apple ID.</p>
+<h2>Qué sube a la nube tras iniciar sesión</h2>
+<p>Una vez iniciada la sesión, se sincronizan tres cosas con Supabase, donde está alojada la base de datos de la app: el progreso de cada palabra, tu propio diccionario y tus ajustes de aprendizaje. Esto sirve exactamente para una cosa: que nada se pierda si reinstalas la app o cambias de teléfono. El acceso está restringido en la propia base de datos: solo tu cuenta puede leer tus registros.</p>
+<h2>Estadísticas anónimas de uso</h2>
+<p>Para saber qué partes de la app funcionan y cuáles no, la app registra un pequeño número de eventos anónimos: que se abrió la app, hasta qué paso de la configuración inicial se llegó, si se concedió el permiso de notificaciones, cuántas notificaciones al día has elegido y que se respondió a una pregunta, incluido si la respuesta fue correcta y si llegó desde la notificación o desde dentro de la app.</p>
+<p>Cada evento lleva una marca aleatoria que la app se genera a sí misma en el primer arranque. No es el identificador de tu dispositivo ni un identificador publicitario: existe solo para que los eventos de una misma instalación se mantengan juntos. Estos eventos nunca contienen las palabras de tu diccionario, el texto que escribes, tu dirección de correo ni tu ubicación. Se guardan en la propia base de datos Supabase de la app y no se ceden a nadie. Si has iniciado sesión, los eventos ligados a tu cuenta se eliminan junto con ella.</p>
+<p>Puedes desactivarlo cuando quieras: Ajustes → Estadísticas anónimas. Una vez desactivado no se registra nada más, y lo que quedara pendiente de enviar se descarta.</p>
+<h2>Qué no hacemos</h2>
+<p>La app no tiene publicidad ni identificadores publicitarios, ni código de analítica o publicidad de terceros. No recogemos información sobre tu ubicación, tus contactos ni las demás apps de tu teléfono, no construimos un perfil publicitario y no compartimos ni vendemos tus datos a terceros.</p>
+<h2>Notificaciones</h2>
+<p>Las notificaciones las compone y programa la propia app en tu teléfono, y su texto nunca sale del dispositivo.</p>
+<p>iOS solo permite a una app mantener un número limitado de notificaciones programadas, así que la tanda se agota al cabo de unos días. Para reponerla sin obligarte a abrir la app, esta registra un token de notificaciones en Apple y nuestro servidor envía de vez en cuando un aviso silencioso que despierta la app en segundo plano. Ese aviso no lleva texto y no muestra nada en pantalla. El token pertenece al dispositivo y no a ti, y si has iniciado sesión se elimina junto con tu cuenta.</p>
+<h2>Cómo borrar tus datos</h2>
+<p>Puedes eliminar tu cuenta junto con todos los datos de la nube desde la propia app: Ajustes → Cuenta → Eliminar la cuenta. El borrado es inmediato y no se puede deshacer. Los datos guardados en el teléfono se van cuando desinstalas la app.</p>
+<h2>Menores</h2>
+<p>La app no está dirigida a menores de 13 años y no recoge sus datos de forma consciente.</p>
+<h2>Cambios</h2>
+<p>Si esta política cambia, el texto actualizado aparecerá en la app y en este mismo enlace, y cambiará la fecha de la parte superior.</p>
+<footer>Dudas sobre tus datos: <a href="mailto:ruslankir317@gmail.com">ruslankir317@gmail.com</a></footer>
+</main>
+</body>
+</html>
